@@ -2,7 +2,7 @@
 
 Neste projeto, nosso maior objetivo, acima de tudo, foi nossa aprendizagem. Visamos ampliar nosso conhecimento sobretudo na questão de programar, revisitando tanto linguagens que tinhamos mais experiência, quanto aprendendo e aprimorando habilidades em linguagens recém aprendidas. Com isso, é evidente que nossa maior prova de ter de fato dominado tais linguagens seria montando uma aplicação web dinâmica com banco de dados funcional
 
-# Tecnologias utilizadas
+## Tecnologias utilizadas
 
 Para realizar este projeto, utilizamos
 
@@ -13,7 +13,7 @@ Para estilização **CSS** e **BOOTSTRAP**;
 
 - E, no Banco de Dados, **MYSQL** e **XAMPP**;
 
-# 🔗 Integrantes
+## 🔗 Integrantes
 [![GitHub](https://img.shields.io/badge/GitHub-Mylena-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Mylenacm)
 
 [![GitHub](https://img.shields.io/badge/GitHub-Kevin-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/KevinBNobre)
