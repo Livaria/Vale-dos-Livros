@@ -13,7 +13,7 @@ Para estilização **CSS** e **BOOTSTRAP**;
 
 - E, no Banco de Dados, **MYSQL** e **XAMPP**;
 
-## 🔗 Integrantes
+# 🔗 Integrantes
 [![GitHub](https://img.shields.io/badge/GitHub-Mylena-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Mylenacm)
 
 [![GitHub](https://img.shields.io/badge/GitHub-Kevin-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/KevinBNobre)
