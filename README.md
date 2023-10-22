@@ -64,7 +64,7 @@ Enfim, passamos as tabelas para modelo físico, tendo o código sql gerado pelo 
 );
 
 CREATE TABLE atendente (
-    id_atendente INT PRIMARY KEY AUTOINCREMENT,
+    id_atendente INT PRIMARY KEY AUTO_INCREMENT,
     nome VARCHAR(100),
     telefone VARCHAR(100),
     contratacao VARCHAR(100),
@@ -74,7 +74,7 @@ CREATE TABLE atendente (
 );
 
 CREATE TABLE livro (
-    id_livro INT PRIMARY KEY,
+    id_livro INT PRIMARY KEY AUTO_INCREMENT,
     titulo VARCHAR(100),
     categoria VARCHAR(100),
     isbn INT,
@@ -88,7 +88,7 @@ CREATE TABLE compra_cliente__atendente_livro (
     fk_cliente__id_cliente INT,
     fk_atendente_id_atendente INT,
     fk_livro_id_livro INT,
-    id_compra INT PRIMARY KEY,
+    id_compra INT PRIMARY KEY AUTO_INCREMENT,
     titulo_livro VARCHAR(100),
     nome_cliente VARCHAR(100),
     nome_atendente VARCHAR(100),
