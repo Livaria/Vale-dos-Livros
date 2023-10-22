@@ -1,29 +1,3 @@
-# Vale dos livros
-
-Neste projeto, nosso maior objetivo, acima de tudo, foi nossa aprendizagem. Visamos ampliar nosso conhecimento sobretudo na questão de programar, revisitando tanto linguagens que tinhamos mais experiência, quanto aprendendo e aprimorando habilidades em linguagens recém aprendidas. Com isso, é evidente que nossa maior prova de ter de fato dominado tais linguagens seria montando uma aplicação web dinâmica com banco de dados funcional
-
-## Tecnologias utilizadas
-
-Para realizar este projeto, utilizamos
-
-- A linguagem de marcação **HTML**;
-Para estilização **CSS** e **BOOTSTRAP**;
-
-- As linguagens de programação **PHP** e **JAVASCRIPT**;
-
-- E, no Banco de Dados, **MYSQL** e **XAMPP**;
-
-## 🔗 Integrantes
-[![GitHub](https://img.shields.io/badge/GitHub-Mylena-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Mylenacm)
-
-[![GitHub](https://img.shields.io/badge/GitHub-Kevin-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/KevinBNobre)
-
-[![GitHub](https://img.shields.io/badge/GitHub-Kauã-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Kauto22)
-
-[![GitHub](https://img.shields.io/badge/GitHub-Henry-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/HenryV042)
-
-[![GitHub](https://img.shields.io/badge/GitHub-Kelly-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Kelly-Romualdo) 
-
 # Construção do Banco de Dados
 
 ## Modelo Entidade Relacionamento (MER)
@@ -64,7 +38,7 @@ Enfim, passamos as tabelas para modelo físico, tendo o código sql gerado pelo 
 );
 
 CREATE TABLE atendente (
-    id_atendente INT PRIMARY KEY AUTO_INCREMENT,
+    id_atendente INT PRIMARY KEY,
     nome VARCHAR(100),
     telefone VARCHAR(100),
     contratacao VARCHAR(100),
@@ -74,7 +48,7 @@ CREATE TABLE atendente (
 );
 
 CREATE TABLE livro (
-    id_livro INT PRIMARY KEY AUTO_INCREMENT,
+    id_livro INT PRIMARY KEY,
     titulo VARCHAR(100),
     categoria VARCHAR(100),
     isbn INT,
@@ -88,7 +62,7 @@ CREATE TABLE compra_cliente__atendente_livro (
     fk_cliente__id_cliente INT,
     fk_atendente_id_atendente INT,
     fk_livro_id_livro INT,
-    id_compra INT PRIMARY KEY AUTO_INCREMENT,
+    id_compra INT PRIMARY KEY,
     titulo_livro VARCHAR(100),
     nome_cliente VARCHAR(100),
     nome_atendente VARCHAR(100),
@@ -113,3 +87,14 @@ ALTER TABLE compra_cliente_atendente_livro ADD CONSTRAINT FK_compra_cliente_aten
     REFERENCES livro (id_livro)
     ON DELETE NO ACTION;
 ```
+
+Gerando, assim, as tabelas e seus atributos:
+
+![App Screenshot](https://static0.gamerantimages.com/wordpress/wp-content/uploads/2021/12/Yakuza-Dancing-Friday-Night-Majima-Kiryu.jpg?q=50&fit=contain&w=1140&h=&dpr=1.5)
+
+
+![App Screenshot](https://static0.gamerantimages.com/wordpress/wp-content/uploads/2021/12/Yakuza-Dancing-Friday-Night-Majima-Kiryu.jpg?q=50&fit=contain&w=1140&h=&dpr=1.5)
+
+
+![App Screenshot](https://static0.gamerantimages.com/wordpress/wp-content/uploads/2021/12/Yakuza-Dancing-Friday-Night-Majima-Kiryu.jpg?q=50&fit=contain&w=1140&h=&dpr=1.5)
+
