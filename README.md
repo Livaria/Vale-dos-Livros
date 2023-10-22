@@ -2,7 +2,7 @@
 
 Neste projeto, nosso maior objetivo, acima de tudo, foi nossa aprendizagem. Visamos ampliar nosso conhecimento sobretudo na questão de programar, revisitando tanto linguagens que tinhamos mais experiência, quanto aprendendo e aprimorando habilidades em linguagens recém aprendidas. Com isso, é evidente que nossa maior prova de ter de fato dominado tais linguagens seria montando uma aplicação web dinâmica com banco de dados funcional
 
-# Tecnologias utilizadas
+## Tecnologias utilizadas
 
 Para realizar este projeto, utilizamos
 
@@ -38,7 +38,6 @@ Para criar este banco, iniciamos com o **MER**, onde essas entidades se relacion
 #### ➞ MER
 ![image](https://github.com/Livaria/Vale-dos-Livros/assets/145984011/43fd5984-3a91-4e56-b5f0-8eda1f273bf0)
 
-## Deploy
 
 Logo em seguida, transformamos em um modelo lógico, por meio do **BrModelo**:
 
@@ -49,7 +48,7 @@ Logo em seguida, transformamos em um modelo lógico, por meio do **BrModelo**:
 
 
 
-## Modelo Físico
+####  ➞ Modelo Físico
 
 Enfim, passamos as tabelas para modelo físico, tendo o código sql gerado pelo próprio **BrModelo**:
 
@@ -127,6 +126,24 @@ Gerando, assim, as tabelas e seus atributos:
 
 #### ➞ Compra
 ![image](https://github.com/Livaria/Vale-dos-Livros/assets/145984011/a6a4642d-d721-41ce-aa48-b073d4f47c4a)
+
+## Aplicação
+
+Com o banco de dados criado e estruturado, partimos para a construção da aplicação leve;
+
+Logo abaixo, temos a tela inicial, composta por 5 botões:
+![image](https://github.com/Livaria/Vale-dos-Livros/assets/145984011/f00dcb1a-39d9-4cda-9db9-1507cf83113e)
+Cada um desses botões acima leva para diferentes áreas, ou telas, como preferir.
+#### ➞ Livros:
+![image](https://github.com/Livaria/Vale-dos-Livros/assets/145984011/a1b36992-b7ee-4faa-8d7a-5d07ec50911b)
+#### ➞ Cadastro de cliente:
+![image](https://github.com/Livaria/Vale-dos-Livros/assets/145984011/526c1875-3233-4063-afa8-743cf9bd66a0)
+#### ➞ Cadastro de atendente:
+![image](https://github.com/Livaria/Vale-dos-Livros/assets/145984011/5dfa6a3a-9f2b-4e88-9176-531f59ce3d7d)
+#### ➞ Compras:
+![image](https://github.com/Livaria/Vale-dos-Livros/assets/145984011/55579274-9e25-4248-9f02-81ebb98dc37a)
+#### ➞ Dados:
+(ai dificulta kk)
 
 
 
