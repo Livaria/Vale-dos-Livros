@@ -64,7 +64,7 @@ Enfim, passamos as tabelas para modelo físico, tendo o código sql gerado pelo 
 );
 
 CREATE TABLE atendente (
-    id_atendente INT PRIMARY KEY,
+    id_atendente INT PRIMARY KEY AUTOINCREMENT,
     nome VARCHAR(100),
     telefone VARCHAR(100),
     contratacao VARCHAR(100),
