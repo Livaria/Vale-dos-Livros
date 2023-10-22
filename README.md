@@ -90,11 +90,17 @@ ALTER TABLE compra_cliente_atendente_livro ADD CONSTRAINT FK_compra_cliente_aten
 
 Gerando, assim, as tabelas e seus atributos:
 
-![App Screenshot](https://static0.gamerantimages.com/wordpress/wp-content/uploads/2021/12/Yakuza-Dancing-Friday-Night-Majima-Kiryu.jpg?q=50&fit=contain&w=1140&h=&dpr=1.5)
+#### ➞ Atendente
+![image](https://github.com/Livaria/Vale-dos-Livros/assets/145984011/13c45ac8-fba5-4c14-98f6-2a61d34935b5)
+
+#### ➞ Cliente
+![image](https://github.com/Livaria/Vale-dos-Livros/assets/145984011/7d73aca6-eaf0-4b38-baab-12d06f480967)
+
+#### ➞ Livro
+![image](https://github.com/Livaria/Vale-dos-Livros/assets/145984011/a0bfc5bc-7d3d-4f03-a771-773b0c656047)
+
+#### ➞ Compra
+![image](https://github.com/Livaria/Vale-dos-Livros/assets/145984011/a6a4642d-d721-41ce-aa48-b073d4f47c4a)
 
 
-![App Screenshot](https://static0.gamerantimages.com/wordpress/wp-content/uploads/2021/12/Yakuza-Dancing-Friday-Night-Majima-Kiryu.jpg?q=50&fit=contain&w=1140&h=&dpr=1.5)
-
-
-![App Screenshot](https://static0.gamerantimages.com/wordpress/wp-content/uploads/2021/12/Yakuza-Dancing-Friday-Night-Majima-Kiryu.jpg?q=50&fit=contain&w=1140&h=&dpr=1.5)
 
