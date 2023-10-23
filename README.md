@@ -176,14 +176,16 @@ Para fnalizar, iremos realizar dez consultas no banco de dados.
 ```Sql
   SELECT * FROM atendente WHERE sexo = 'Feminino' AND contratacao > '2023-01-01';
 ```
-![image](https://github.com/Livaria/Vale-dos-Livros/assets/145984011/89d07771-6d5d-4804-bf42-3a38abc380f4)
+![image](https://github.com/Livaria/Vale-dos-Livros/assets/145984011/4a5291fc-65bf-436a-a9b3-a838350bf799)
 
-####  ➞ Listar todos os clientes no banco de dados
-
+####  ➞ Calcular o valor total gasto por cada cliente em compras:
 ```Sql
-  SELECT * FROM cliente;
+  SELECT nome_cliente, SUM(valor_total) AS total_gasto
+  FROM compra
+  GROUP BY nome_cliente;
 ```
-![image](https://github.com/Livaria/Vale-dos-Livros/assets/145984011/89d07771-6d5d-4804-bf42-3a38abc380f4)
+![image](https://github.com/Livaria/Vale-dos-Livros/assets/145984011/7658535a-88dc-4676-b7c0-e3166ab3e0d2)
+
 
 ####  ➞ Listar todos os clientes no banco de dados
 
