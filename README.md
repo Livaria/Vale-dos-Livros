@@ -143,7 +143,24 @@ Cada um desses botões acima leva para diferentes áreas, ou telas, como preferi
 #### ➞ Compras:
 ![image](https://github.com/Livaria/Vale-dos-Livros/assets/145984011/55579274-9e25-4248-9f02-81ebb98dc37a)
 #### ➞ Dados:
-(ai dificulta kk)
+Após preencher os dados em cada tela (atendentes, clientes, livros e compras), há um botão escrito "Dados", no qual é possível ver os dados em geral do sitema:
+
+####  • Atendente:
+![image](https://github.com/Livaria/Vale-dos-Livros/assets/145984011/f41fbb3b-df0d-477e-ac1d-e5369a3aa475)
+
+####  • Cliente:
+![image](https://github.com/Livaria/Vale-dos-Livros/assets/145984011/3ef623f2-f14b-452d-a649-ab62c82fd8ed)
+
+####  • Livro:
+![alo](https://github.com/Livaria/Vale-dos-Livros/assets/145984011/078ccc41-c329-42bf-941e-288284265031)
+
+####  • Compra:
+![image](https://github.com/Livaria/Vale-dos-Livros/assets/145984011/e0b73c9f-2f1e-4f0a-bc74-5421a0048c29)
+
+####  • Gráficos:
+Na aplicação, por fim, também é possível visualizar gráficos com alguns dados do sistema, como, por exemplo divisão de gênero dos clientes, livros mais vendidos, entre outros.
+![image](https://github.com/Livaria/Vale-dos-Livros/assets/145984011/42dce57f-99fe-4f00-ae58-e139b774e048)
+
 
 
 
