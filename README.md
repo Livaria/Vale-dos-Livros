@@ -265,4 +265,12 @@ Para fnalizar, iremos realizar dez consultas no banco de dados.
 ####  ➞ Saída
 ![image](https://github.com/Livaria/Vale-dos-Livros/assets/145984011/4695d751-910c-4945-9e9b-a55016296312)
 
+## Conclusão
+
+O trabalho de banco de dados proposto pelo professor Adeilson representou uma oportunidade valiosa para nossa equipe composta por José Henry Viana Saboia - 25, Mylena Carvalho Duarte Mourão - 35, Kevin Beserra Nobre - 32, Kelly Romualdo Palhano Bezerra - 30 e Kauã Silva Barreto Caldas - 31. Neste projeto, aplicamos nossos conhecimentos em SQL e PHP para criar um banco de dados responsivo e eficiente.
+
+Todos os arquivos relacionados ao trabalho estão prontamente disponíveis em nosso repositório no github, demonstrando nossa dedicação e comprometimento com a transparência e a acessibilidade. Trabalhamos de forma colaborativa e bem coordenada para atender aos requisitos do projeto e alcançar nossos objetivos com sucesso.
+
+Este projeto de banco de dados não apenas fortaleceu nossa compreensão dos conceitos fundamentais de gerenciamento de dados, mas também aprimorou nossas habilidades práticas em SQL e PHP. Estamos orgulhosos do trabalho que realizamos e estamos ansiosos para aplicar esse conhecimento em projetos futuros e desafios relacionados a banco de dados.
+
 
