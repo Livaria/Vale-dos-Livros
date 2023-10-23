@@ -161,6 +161,78 @@ Após preencher os dados em cada tela (atendentes, clientes, livros e compras), 
 Na aplicação, por fim, também é possível visualizar gráficos com alguns dados do sistema, como, por exemplo divisão de gênero dos clientes, livros mais vendidos, entre outros.
 ![image](https://github.com/Livaria/Vale-dos-Livros/assets/145984011/42dce57f-99fe-4f00-ae58-e139b774e048)
 
+## Consultas
+Para fnalizar, iremos realizar dez consultas no banco de dados.
+
+####  ➞ Listar todos os clientes no banco de dados
+
+```Sql
+  SELECT * FROM cliente;
+```
+![image](https://github.com/Livaria/Vale-dos-Livros/assets/145984011/89d07771-6d5d-4804-bf42-3a38abc380f4)
+
+####  ➞ Listar todos os atendentes do sexo feminino contratados após uma data específica
+
+```Sql
+  SELECT * FROM atendente WHERE sexo = 'Feminino' AND contratacao > '2023-01-01';
+```
+![image](https://github.com/Livaria/Vale-dos-Livros/assets/145984011/89d07771-6d5d-4804-bf42-3a38abc380f4)
+
+####  ➞ Listar todos os clientes no banco de dados
+
+```Sql
+  SELECT * FROM cliente;
+```
+![image](https://github.com/Livaria/Vale-dos-Livros/assets/145984011/89d07771-6d5d-4804-bf42-3a38abc380f4)
+
+####  ➞ Listar todos os clientes no banco de dados
+
+```Sql
+  SELECT * FROM cliente;
+```
+![image](https://github.com/Livaria/Vale-dos-Livros/assets/145984011/89d07771-6d5d-4804-bf42-3a38abc380f4)
+
+####  ➞ Listar todos os clientes no banco de dados
+
+```Sql
+  SELECT * FROM cliente;
+```
+![image](https://github.com/Livaria/Vale-dos-Livros/assets/145984011/89d07771-6d5d-4804-bf42-3a38abc380f4)
+
+####  ➞ Listar todos os clientes no banco de dados
+
+```Sql
+  SELECT * FROM cliente;
+```
+![image](https://github.com/Livaria/Vale-dos-Livros/assets/145984011/89d07771-6d5d-4804-bf42-3a38abc380f4)
+
+####  ➞ Listar todos os clientes no banco de dados
+
+```Sql
+  SELECT * FROM cliente;
+```
+![image](https://github.com/Livaria/Vale-dos-Livros/assets/145984011/89d07771-6d5d-4804-bf42-3a38abc380f4)
+
+####  ➞ Listar todos os clientes no banco de dados
+
+```Sql
+  SELECT * FROM cliente;
+```
+![image](https://github.com/Livaria/Vale-dos-Livros/assets/145984011/89d07771-6d5d-4804-bf42-3a38abc380f4)
+
+####  ➞ Listar todos os clientes no banco de dados
+
+```Sql
+  SELECT * FROM cliente;
+```
+![image](https://github.com/Livaria/Vale-dos-Livros/assets/145984011/89d07771-6d5d-4804-bf42-3a38abc380f4)
+
+####  ➞ Listar todos os clientes no banco de dados
+
+```Sql
+  SELECT * FROM cliente;
+```
+![image](https://github.com/Livaria/Vale-dos-Livros/assets/145984011/89d07771-6d5d-4804-bf42-3a38abc380f4)
 
 
 
