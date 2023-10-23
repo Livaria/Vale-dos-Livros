@@ -14,15 +14,15 @@ Para estilização **CSS** e **BOOTSTRAP**;
 - E, no Banco de Dados, **MYSQL** e **XAMPP**;
 
 ## 🔗 Integrantes
-[![GitHub](https://img.shields.io/badge/GitHub-Mylena-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Mylenacm)
+[![GitHub](https://img.shields.io/badge/GitHub-Mylena35-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Mylenacm)
 
-[![GitHub](https://img.shields.io/badge/GitHub-Kevin-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/KevinBNobre)
+[![GitHub](https://img.shields.io/badge/GitHub-Kevin32-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/KevinBNobre)
 
-[![GitHub](https://img.shields.io/badge/GitHub-Kauã-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Kauto22)
+[![GitHub](https://img.shields.io/badge/GitHub-Kauã30-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Kauto22)
 
-[![GitHub](https://img.shields.io/badge/GitHub-Henry-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/HenryV042)
+[![GitHub](https://img.shields.io/badge/GitHub-Henry25-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/HenryV042)
 
-[![GitHub](https://img.shields.io/badge/GitHub-Kelly-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Kelly-Romualdo)
+[![GitHub](https://img.shields.io/badge/GitHub-Kelly31-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Kelly-Romualdo)
 
 # Construção do Banco de Dados
 
