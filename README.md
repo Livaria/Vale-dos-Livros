@@ -187,64 +187,82 @@ Para fnalizar, iremos realizar dez consultas no banco de dados.
   GROUP BY nome_cliente;
 ```
 ####  ➞ Saída
-![image](https://github.com/Livaria/Vale-dos-Livros/assets/145984011/7658535a-88dc-4676-b7c0-e3166ab3e0d2)
+![image](https://github.com/Livaria/Vale-dos-Livros/assets/145984011/54fd2e77-b1ad-408a-aaea-eaf98aa1e0c6)
 
 
-####  ➞ Listar todos os clientes no banco de dados
 
-```Sql
-  SELECT * FROM cliente;
-```
-####  ➞ Saída
-![image](https://github.com/Livaria/Vale-dos-Livros/assets/145984011/89d07771-6d5d-4804-bf42-3a38abc380f4)
-
-####  ➞ Listar todos os clientes no banco de dados
+####  ➞ Encontrar o atendente que fez o maior número de vendas:
 
 ```Sql
-  SELECT * FROM cliente;
+    SELECT nome_atendente, COUNT(*) AS num_vendas
+    FROM compra
+    GROUP BY nome_atendente
+    ORDER BY num_vendas DESC
+    LIMIT 1;
 ```
 ####  ➞ Saída
-![image](https://github.com/Livaria/Vale-dos-Livros/assets/145984011/89d07771-6d5d-4804-bf42-3a38abc380f4)
+![image](https://github.com/Livaria/Vale-dos-Livros/assets/145984011/0dabcb7d-aba8-4812-b9cf-6a5dcf7849ea)
 
-####  ➞ Listar todos os clientes no banco de dados
+####  ➞ Listar os livros com estoque abaixo de 60 unidades:
 
 ```Sql
-  SELECT * FROM cliente;
+  SELECT * FROM livro WHERE estoque < 60;
 ```
 ####  ➞ Saída
-![image](https://github.com/Livaria/Vale-dos-Livros/assets/145984011/89d07771-6d5d-4804-bf42-3a38abc380f4)
+![image](https://github.com/Livaria/Vale-dos-Livros/assets/145984011/18347d45-ed17-4379-976d-2c4ccd410e7c)
 
-####  ➞ Listar todos os clientes no banco de dados
+####  ➞ Calcular o valor total das compras de um cliente específico(João Silva):
 
 ```Sql
-  SELECT * FROM cliente;
+    SELECT SUM(valor_total) AS total_gasto
+    FROM compra
+    WHERE nome_cliente = 'João Silva';
 ```
 ####  ➞ Saída
-![image](https://github.com/Livaria/Vale-dos-Livros/assets/145984011/89d07771-6d5d-4804-bf42-3a38abc380f4)
+![image](https://github.com/Livaria/Vale-dos-Livros/assets/145984011/39c469a4-fd3d-4e04-9cde-8689e11f78e5)
 
-####  ➞ Listar todos os clientes no banco de dados
+####  ➞ Encontrar os clientes que compraram livros da categoria 'Romance':
 
 ```Sql
-  SELECT * FROM cliente;
+  SELECT DISTINCT c.nome
+    FROM cliente c
+    JOIN compra com ON c.nome = com.nome_cliente
+    JOIN livro l ON com.titulo_livro = l.titulo
+    WHERE l.categoria = 'Romance';
 ```
 ####  ➞ Saída
-![image](https://github.com/Livaria/Vale-dos-Livros/assets/145984011/89d07771-6d5d-4804-bf42-3a38abc380f4)
+![image](https://github.com/Livaria/Vale-dos-Livros/assets/145984011/d0c2dcad-2634-40af-a82a-b97f3e395970)
 
-####  ➞ Listar todos os clientes no banco de dados
+####  ➞ Listar os livros comprados por um cliente específico(João da Silva):
 
 ```Sql
-  SELECT * FROM cliente;
+  SELECT com.titulo_livro
+    FROM compra com
+    WHERE com.nome_cliente = 'João Silva';
 ```
 ####  ➞ Saída
-![image](https://github.com/Livaria/Vale-dos-Livros/assets/145984011/89d07771-6d5d-4804-bf42-3a38abc380f4)
+![image](https://github.com/Livaria/Vale-dos-Livros/assets/145984011/025e18a6-d26c-43ea-ade0-55b9e3000de3)
 
-####  ➞ Listar todos os clientes no banco de dados
+####  ➞ Encontrar o autor com mais livros no catálogo:
 
 ```Sql
-  SELECT * FROM cliente;
+  SELECT autor, COUNT(*) AS num_livros
+    FROM livro
+    GROUP BY autor
+    ORDER BY num_livros DESC
+    LIMIT 1;
 ```
 ####  ➞ Saída
-![image](https://github.com/Livaria/Vale-dos-Livros/assets/145984011/89d07771-6d5d-4804-bf42-3a38abc380f4)
+![image](https://github.com/Livaria/Vale-dos-Livros/assets/145984011/4f7e8458-94b8-452c-bad0-3e0af1d2604d)
 
+####  ➞ Calcular o valor médio dos livros em cada categoria:
+
+```Sql
+    SELECT categoria, AVG(valor) AS valor_medio
+    FROM livro
+    GROUP BY categoria;
+```
+####  ➞ Saída
+![image](https://github.com/Livaria/Vale-dos-Livros/assets/145984011/4695d751-910c-4945-9e9b-a55016296312)
 
 
